@@ -25,3 +25,19 @@ for i in range(n_coins):
     else:
         current_coin = 1
         print(current_coin, end=' ')
+
+# import random
+
+# coins = int(input('Введите общее количество монет: '))
+# heads = 0
+# all_coins = 0
+
+# for i in range(coins):
+#     coin = random.randint(0, 1)
+#     print(coin, end=' ')
+#     heads += coin
+
+# if heads != coins and heads != 0:
+#     print(f'\nНужно перевернуть {1 if heads < coins // 2 + 1 else 0}')
+# else:
+#     print('\nНичего переворачивать не нужно')
