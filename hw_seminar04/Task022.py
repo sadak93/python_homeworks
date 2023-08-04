@@ -6,9 +6,9 @@
 from random import randint
 
 n_of_list_1 = int(input('Введите кол-во чисел 1 списка: '))
-list_1 = [randint(0,50) for _ in range(n_of_list_1)]
+list_1 = [randint(0,20) for _ in range(n_of_list_1)]
 n_of_list_2 = int(input('Введите кол-во чисел 2 списка: '))
-list_2 = [randint(0,50) for _ in range(n_of_list_2)]
+list_2 = [randint(0,20) for _ in range(n_of_list_2)]
 print(f'1ый набор целый чисел: {list_1}')
 print(f'2ой набор целый чисел: {list_2}')
 list_1 = set(list_1)

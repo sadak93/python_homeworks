@@ -22,3 +22,14 @@ for i in range(len(list_1)):
         max_summ = list_1[(i-1)%len(list_1)]+list_1[i]+list_1[(i+1)%len(list_1)]
 
 print(max_summ)
+
+# import random
+#
+# print(bushes := [random.randint(1,20) for _ in range(10)])
+#
+# sum_berries = []
+#
+# for i in range(len(bushes)):
+#     sum_berries.append(bushes[(i-1)%len(bushes)] + bushes[i] + bushes[(i+1)%len(bushes)])
+#
+# print(max(sum_berries))
